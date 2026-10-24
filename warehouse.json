@@ -1,9 +1,24 @@
 {
   "urls": [
-    { "url": "https://xn--6orr3pi6g9uu.top/", "name": "baohe" },
-    { "url": "https://play.iptv365.org/%E6%AC%A7%E6%AD%8C/api.json", "name": "ouge" },
-    { "url": "https://9280.kstore.vip/newwex.json", "name": "wang2x" },
-    { "url": "http://home.jundie.top:81/top98.json", "name": "junge" },
-    { "url": "http://mzrjk.top/VIP", "name": "jinyu" }
+    {
+      "url": "https://xn--6orr3pi6g9uu.top/",
+      "name": "baohe"
+    },
+    {
+      "url": "https://play.iptv365.org/%E6%AC%A7%E6%AD%8C/api.json",
+      "name": "ouge"
+    },
+    {
+      "url": "https://9280.kstore.vip/newwex.json",
+      "name": "wang2x"
+    },
+    {
+      "url": "http://home.jundie.top:81/top98.json",
+      "name": "junge"
+    },
+    {
+      "url": "http://mzrjk.top/VIP",
+      "name": "jinyu"
+    }
   ]
 }
