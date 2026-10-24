@@ -1,0 +1,35 @@
+name: update warehouse
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - sources.json
+      - build_warehouse.py
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build warehouse.json
+        run: python build_warehouse.py
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain warehouse.json status.json)" ]; then
+            git add warehouse.json status.json
+            git commit -m "chore: refresh warehouse"
+            git push
+          else
+            echo "no changes"
+          fi
