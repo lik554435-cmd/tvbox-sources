@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T10:35:19Z",
+  "checked_at": "2026-10-25T10:36:51Z",
   "sites": 297,
   "parses": 34,
   "live_groups": [
@@ -48,20 +48,20 @@
     {
       "source": "vbskycn",
       "ok": true,
-      "parsed": 509,
-      "kept": 30
+      "parsed": 530,
+      "kept": 47
     },
     {
       "source": "guovin",
       "ok": true,
       "parsed": 1619,
-      "kept": 260
+      "kept": 262
     },
     {
       "source": "iptv-org",
       "ok": true,
       "parsed": 510,
-      "kept": 55
+      "kept": 50
     }
   ]
 }
