@@ -8,6 +8,8 @@ on:
     paths:
       - sources.json
       - build_warehouse.py
+      - build_live.py
+      - .github/workflows/update.yml
 
 permissions:
   contents: write
@@ -20,15 +22,20 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Build warehouse.json
         run: python build_warehouse.py
+
+      - name: Build live.m3u / live.txt
+        run: python build_live.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain warehouse.json status.json)" ]; then
-            git add warehouse.json status.json
-            git commit -m "chore: refresh warehouse"
+          if [ -n "$(git status --porcelain warehouse.json status.json live.m3u live.txt live_status.json)" ]; then
+            git add warehouse.json status.json live.m3u live.txt live_status.json
+            git commit -m "chore: refresh warehouse + live"
             git push
           else
             echo "no changes"

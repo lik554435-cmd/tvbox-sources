@@ -12,6 +12,26 @@ https://raw.githubusercontent.com/lik554435-cmd/tvbox-sources/main/warehouse.jso
 
 推荐 jsDelivr（国内可直连）。填法：宝盒TV / TVBox → 设置 → 点播 → 粘贴地址 → Done → 确定。
 
+## 直播源（央视 + 卫视）
+
+同一个仓库还自动生成直播源，覆盖 **央视 CCTV1–17 + CCTV5+** 和 **36 个省级卫视**，
+每个频道给 3–4 条备用线路（名字后带 `-2` `-3` 的是备用）。
+
+```
+https://cdn.jsdelivr.net/gh/lik554435-cmd/tvbox-sources@main/live.txt
+https://raw.githubusercontent.com/lik554435-cmd/tvbox-sources/main/live.txt
+```
+
+m3u 格式（部分播放器用这个）：
+
+```
+https://cdn.jsdelivr.net/gh/lik554435-cmd/tvbox-sources@main/live.m3u
+```
+
+填法：TVBox → 设置 → 直播 → 直播源地址 → 粘贴 `live.txt` 的地址 → 确定 → 回到首页选「直播」。
+
+想调顺序或频道范围，改 `build_live.py` 里的 `MAX_PER_CHANNEL`（每频道保留几条）和 `SATELLITE`（卫视白名单）。
+
 ## 文件
 
 | 文件 | 作用 |
