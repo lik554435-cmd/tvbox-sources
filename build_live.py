@@ -16,6 +16,10 @@ TIMEOUT = 25
 
 # 来源优先级（越靠前越优先保留）
 SOURCES = [
+    ("yuechan",   "https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u"),
+    ("suxuang",   "https://cdn.jsdelivr.net/gh/suxuang/myIPTV@main/back/ipv4_0226.m3u"),
+    ("qwerttvv",  "https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u"),
+    ("ngo5",      "https://cdn.jsdelivr.net/gh/ngo5/IPTV@main/m3u/ipv4.m3u"),
     ("vbskycn",   "https://cdn.jsdelivr.net/gh/vbskycn/iptv@master/tv/iptv4.m3u"),
     ("guovin",    "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u"),
     ("iptv-org",  "https://cdn.jsdelivr.net/gh/iptv-org/iptv@master/streams/cn.m3u"),
