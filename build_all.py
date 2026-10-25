@@ -92,8 +92,8 @@ def build_lives(pool):
 
 def main():
     sites, parses, stats = collect()
-    pool, live_stats = BL.build_pool()
-    lives = build_lives(pool)
+    pool, live_stats = ({}, [])  # [PATCH] 仅点播：不再生成 lives
+    lives = []  # [PATCH] 仅点播
 
     if not sites:
         print("[warn] 没有抓到任何站点，保留旧 tvbox.json")
