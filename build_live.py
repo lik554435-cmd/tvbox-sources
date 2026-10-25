@@ -11,7 +11,7 @@ import json, os, re, sys, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 UA = "okhttp/3.15"
-MAX_PER_CHANNEL = 4          # 每个频道最多保留几个源
+MAX_PER_CHANNEL = 8          # 每个频道最多保留几个源
 TIMEOUT = 25
 
 # 来源优先级（越靠前越优先保留）
@@ -129,15 +129,19 @@ def apply_checked(pool):
     def rank(u):
         r = chk.get(u)
         if not r:
-            return 0          # 没测过的排前面（可能是新的）
-        return 1 if r.get("ok") else 3
+            return 2                      # 没测过的居中
+        return 1 if r.get("ok") else 3    # 可用在前，挂掉在后
 
-    def ms(u):
+    def kbs(u):
         r = chk.get(u) or {}
-        return r.get("ms", 9999)
+        return r.get("kbs", 0)
 
     for k, urls in pool.items():
-        urls.sort(key=lambda u: (rank(u), ms(u)))
+        urls.sort(key=lambda u: (rank(u), -kbs(u), u))
+        # 有实测可用线路时，把确认挂掉的剔除；全都没验证时保留原样
+        good = [u for u in urls if (chk.get(u) or {}).get("ok")]
+        if good:
+            urls[:] = good + [u for u in urls if u not in good and u not in chk]
     return pool
 
 
