@@ -44,3 +44,10 @@ jobs:
           else
             echo "no changes"
           fi
+
+      - name: Purge jsDelivr cache
+        run: |
+          for f in tvbox.json warehouse.json live.txt live.m3u; do
+            curl -s "https://purge.jsdelivr.net/gh/lik554435-cmd/tvbox-sources@main/$f" > /dev/null || true
+          done
+          echo "purged"
