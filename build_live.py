@@ -77,8 +77,9 @@ def canon(name):
     return None
 
 
-def main():
-    pool = {}   # channel -> [urls]
+def build_pool():
+    """抓取所有来源，返回 {频道: [urls]} 与来源统计。"""
+    pool = {}
     stats = []
     for src_name, url in SOURCES:
         try:
@@ -104,6 +105,11 @@ def main():
         stats.append({"source": src_name, "ok": True, "parsed": len(items), "kept": got})
         print("[ok]  %-10s 解析 %d 条，新增 %d 个可用源" % (src_name, len(items), got))
 
+    return pool, stats
+
+
+def main():
+    pool, stats = build_pool()
     cctv = [c for c in CCTV_ORDER if pool.get(c)]
     sat = [s for s in SATELLITE if pool.get(s)]
 

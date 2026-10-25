@@ -1,0 +1,67 @@
+{
+  "checked_at": "2026-10-25T09:12:14Z",
+  "sites": 297,
+  "parses": 34,
+  "live_groups": [
+    {
+      "group": "央视",
+      "channels": 18
+    },
+    {
+      "group": "卫视",
+      "channels": 36
+    }
+  ],
+  "sources": [
+    {
+      "name": "baohe",
+      "ok": true,
+      "sites": 49,
+      "parses": 10
+    },
+    {
+      "name": "ouge",
+      "ok": true,
+      "sites": 106,
+      "parses": 9
+    },
+    {
+      "name": "wang2x",
+      "ok": true,
+      "sites": 99,
+      "parses": 4
+    },
+    {
+      "name": "junge",
+      "ok": true,
+      "sites": 23,
+      "parses": 11
+    },
+    {
+      "name": "jinyu",
+      "ok": true,
+      "sites": 20,
+      "parses": 0
+    }
+  ],
+  "live_sources": [
+    {
+      "source": "vbskycn",
+      "ok": true,
+      "parsed": 530,
+      "kept": 47
+    },
+    {
+      "source": "guovin",
+      "ok": true,
+      "parsed": 1619,
+      "kept": 162
+    },
+    {
+      "source": "iptv-org",
+      "ok": true,
+      "parsed": 510,
+      "kept": 3
+    }
+  ]
+}

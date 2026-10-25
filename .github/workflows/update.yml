@@ -9,6 +9,7 @@ on:
       - sources.json
       - build_warehouse.py
       - build_live.py
+      - build_all.py
       - .github/workflows/update.yml
 
 permissions:
@@ -23,19 +24,22 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Build warehouse.json
+      - name: Build warehouse.json (多仓)
         run: python build_warehouse.py
 
-      - name: Build live.m3u / live.txt
+      - name: Build live.m3u / live.txt (独立直播)
         run: python build_live.py
+
+      - name: Build tvbox.json (单仓：点播+直播合一)
+        run: python build_all.py
 
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          if [ -n "$(git status --porcelain warehouse.json status.json live.m3u live.txt live_status.json)" ]; then
-            git add warehouse.json status.json live.m3u live.txt live_status.json
-            git commit -m "chore: refresh warehouse + live"
+          if [ -n "$(git status --porcelain warehouse.json status.json live.m3u live.txt live_status.json tvbox.json tvbox_status.json)" ]; then
+            git add warehouse.json status.json live.m3u live.txt live_status.json tvbox.json tvbox_status.json
+            git commit -m "chore: refresh warehouse + live + tvbox"
             git push
           else
             echo "no changes"
