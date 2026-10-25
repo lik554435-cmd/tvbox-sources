@@ -1,17 +1,8 @@
 {
-  "checked_at": "2026-10-25T15:23:21Z",
+  "checked_at": "2026-10-25T15:28:19Z",
   "sites": 297,
   "parses": 34,
-  "live_groups": [
-    {
-      "group": "央视",
-      "channels": 18
-    },
-    {
-      "group": "卫视",
-      "channels": 36
-    }
-  ],
+  "live_groups": [],
   "sources": [
     {
       "name": "baohe",
@@ -44,66 +35,5 @@
       "parses": 0
     }
   ],
-  "live_sources": [
-    {
-      "source": "ccsh",
-      "ok": true,
-      "parsed": 2812,
-      "kept": 648
-    },
-    {
-      "source": "4yt1k",
-      "ok": true,
-      "parsed": 2748,
-      "kept": 0
-    },
-    {
-      "source": "fanmingming",
-      "ok": true,
-      "parsed": 189,
-      "kept": 0
-    },
-    {
-      "source": "yuechan",
-      "ok": true,
-      "parsed": 96,
-      "kept": 0
-    },
-    {
-      "source": "suxuang",
-      "ok": true,
-      "parsed": 689,
-      "kept": 0
-    },
-    {
-      "source": "qwerttvv",
-      "ok": true,
-      "parsed": 134,
-      "kept": 0
-    },
-    {
-      "source": "ngo5",
-      "ok": true,
-      "parsed": 58,
-      "kept": 0
-    },
-    {
-      "source": "vbskycn",
-      "ok": true,
-      "parsed": 507,
-      "kept": 0
-    },
-    {
-      "source": "guovin",
-      "ok": true,
-      "parsed": 1619,
-      "kept": 0
-    },
-    {
-      "source": "iptv-org",
-      "ok": true,
-      "parsed": 510,
-      "kept": 0
-    }
-  ]
+  "live_sources": []
 }
