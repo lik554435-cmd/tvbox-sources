@@ -99,6 +99,16 @@ def main():
         print("[warn] 没有抓到任何站点，保留旧 tvbox.json")
         return 1
 
+    # 直播抓取失败（网络抖动）时，保留上一次的 lives，避免把直播清空
+    if not lives:
+        try:
+            old = json.load(open(OUT, encoding="utf-8"))
+            if old.get("lives"):
+                lives = old["lives"]
+                print("[warn] lives 抓取失败，沿用上一次的 %d 组" % len(lives))
+        except Exception:
+            pass
+
     cfg = {"sites": sites}
     if parses:
         cfg["parses"] = parses

@@ -1,0 +1,850 @@
+{
+"http://207.56.13.146:81/cdnlive/cctv4.m3u8": {
+"ok": true,
+"ms": 649
+},
+"http://gmxw.7766.org:808/hls/93/index.m3u8": {
+"ok": true,
+"ms": 81
+},
+"http://107.150.60.122/live/cctv4hd.m3u8": {
+"ok": true,
+"ms": 759
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv1hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 775
+},
+"http://198.204.228.26/live/cctv2hd.m3u8": {
+"ok": true,
+"ms": 786
+},
+"http://204.12.221.218:8181/3m1080p/cctv1.m3u8": {
+"ok": true,
+"ms": 853
+},
+"http://74.91.26.218:82/live/cctv3hd.m3u8": {
+"ok": true,
+"ms": 907
+},
+"http://204.12.221.218:8181/3m1080p/cctv2.m3u8": {
+"ok": true,
+"ms": 912
+},
+"http://74.91.26.218:82/live/cctv4hd.m3u8": {
+"ok": true,
+"ms": 914
+},
+"http://bztv.tvbus.cc:8081/cdnlive/cctv2.m3u8": {
+"ok": true,
+"ms": 980
+},
+"http://207.56.13.146:81/cdnlive/cctv5.m3u8": {
+"ok": true,
+"ms": 697
+},
+"http://107.150.60.122/live/cctv3hd.m3u8": {
+"ok": true,
+"ms": 1543
+},
+"http://69.30.245.50/live/cctv6.m3u8": {
+"ok": false,
+"ms": 784
+},
+"http://gmxw.7766.org:808/hls/96/index.m3u8": {
+"ok": true,
+"ms": 49
+},
+"http://107.150.60.122/live/cctv5hd.m3u8": {
+"ok": true,
+"ms": 1089
+},
+"http://74.91.26.218:82/live/cctv7hd.m3u8": {
+"ok": true,
+"ms": 888
+},
+"http://198.204.240.250:82/live/cctv6.m3u8": {
+"ok": false,
+"ms": 1258
+},
+"http://207.56.13.146:81/cdnlive/cctv7.m3u8": {
+"ok": true,
+"ms": 703
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv3hd": {
+"ok": true,
+"ms": 2401
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv1hd": {
+"ok": true,
+"ms": 2512
+},
+"http://bztv.tvbus.cc:8081/cdnlive/cctv8.m3u8": {
+"ok": true,
+"ms": 873
+},
+"http://112.30.73.119:9901/tsfile/live/0005_2.m3u8?key=txiptv&playlive=0&authid=0": {
+"ok": false,
+"ms": 2121
+},
+"http://74.91.26.218:82/live/cctv6hd.m3u8": {
+"ok": true,
+"ms": 2122
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv8k": {
+"ok": true,
+"ms": 1321
+},
+"http://107.150.60.122/live/cctv9hd.m3u8": {
+"ok": true,
+"ms": 869
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv10hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 810
+},
+"http://74.91.26.218:82/live/cctv9hd.m3u8": {
+"ok": true,
+"ms": 942
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv9hd": {
+"ok": true,
+"ms": 1259
+},
+"http://69.30.245.50/live/cctv8.m3u8": {
+"ok": false,
+"ms": 1829
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd": {
+"ok": true,
+"ms": 2336
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv11hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 749
+},
+"http://74.91.26.218:82/live/cctv11hd.m3u8": {
+"ok": true,
+"ms": 837
+},
+"http://74.91.26.218:82/live/cctv10hd.m3u8": {
+"ok": true,
+"ms": 1892
+},
+"http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8": {
+"ok": true,
+"ms": 27
+},
+"http://38.75.136.137:98/gslb/dsdqpub/cctv12hd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 790
+},
+"http://74.91.26.218:82/live/cctv12hd.m3u8": {
+"ok": true,
+"ms": 919
+},
+"http://107.150.60.122/live/cctv12hd.m3u8": {
+"ok": true,
+"ms": 1956
+},
+"http://219.159.147.195:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6010
+},
+"http://219.159.147.195:9901/tsfile/live/1019_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6012
+},
+"http://219.159.147.195:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6009
+},
+"http://219.159.147.195:9901/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6015
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv13hd": {
+"ok": true,
+"ms": 1288
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv13hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 1785
+},
+"http://204.12.221.218:8181/3m1080p/cctv10.m3u8": {
+"ok": false,
+"ms": 3607
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv14hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 777
+},
+"http://219.159.147.195:9901/tsfile/live/1008_1.m3u8": {
+"ok": false,
+"ms": 6005
+},
+"http://gmxw.7766.org:808/hls/169/index.m3u8": {
+"ok": true,
+"ms": 60
+},
+"http://219.159.147.195:9901/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6013
+},
+"http://198.204.228.26/live/cctv11hd.m3u8": {
+"ok": false,
+"ms": 3546
+},
+"http://74.91.26.218:82/live/cctv13hd.m3u8": {
+"ok": true,
+"ms": 2077
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv15hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 772
+},
+"http://207.56.13.146:81/cdnlive/cctv16.m3u8": {
+"ok": true,
+"ms": 622
+},
+"http://74.91.26.218:82/live/cctv15hd.m3u8": {
+"ok": true,
+"ms": 888
+},
+"https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 341
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv16hd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 756
+},
+"http://120.76.248.139/live/bfgd/4200000246.m3u8": {
+"ok": true,
+"ms": 71
+},
+"https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 382
+},
+"https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8": {
+"ok": true,
+"ms": 42
+},
+"http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 867
+},
+"http://204.12.221.218:8181/3m1080p/cctv14.m3u8": {
+"ok": true,
+"ms": 1815
+},
+"http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8": {
+"ok": true,
+"ms": 56
+},
+"http://ali-m-l.cztv.com:80/channels/lantian/channel001/1080p.m3u8": {
+"ok": true,
+"ms": 41
+},
+"http://bztv.tvbus.cc:8081/cdnlive/cctv10.m3u8": {
+"ok": false,
+"ms": 4756
+},
+"https://myip.pdtvhd.com/Sports/streams/CCTV5pul.m3u8": {
+"ok": false,
+"ms": 345
+},
+"http://219.159.147.195:9901/tsfile/live/1011_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6003
+},
+"http://38.75.136.137:98/gslb/dsdqbv/cctv5p.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 727
+},
+"http://107.150.60.122/live/hnwshd.m3u8": {
+"ok": true,
+"ms": 840
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv17hd": {
+"ok": true,
+"ms": 1281
+},
+"http://38.75.136.137:98/gslb/dsdqpub/zjwshd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 745
+},
+"http://bp-resource-dfl.bestv.cn/148/3/video.m3u8": {
+"ok": true,
+"ms": 132
+},
+"https://bp-resource-dfl.bestv.cn/148/3/video.m3u8": {
+"ok": true,
+"ms": 97
+},
+"http://219.159.147.195:9901/tsfile/live/1013_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6004
+},
+"http://204.12.221.218:8181/3m1080p/cctv15.m3u8": {
+"ok": true,
+"ms": 3062
+},
+"http://107.150.60.122/live/jswshd.m3u8": {
+"ok": true,
+"ms": 824
+},
+"http://38.75.136.137:98/gslb/dsdqbv/jswshd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 791
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=zjwshd": {
+"ok": true,
+"ms": 1698
+},
+"http://219.159.147.195:9901/tsfile/live/1014_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6005
+},
+"http://107.150.60.122/live/zjwshd.m3u8": {
+"ok": true,
+"ms": 1812
+},
+"http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 765
+},
+"http://198.204.228.26/live/cctv14hd.m3u8": {
+"ok": true,
+"ms": 3841
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jswshd": {
+"ok": true,
+"ms": 1746
+},
+"http://107.150.60.122/live/ahwshd.m3u8": {
+"ok": true,
+"ms": 788
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=bjwshd": {
+"ok": true,
+"ms": 1231
+},
+"http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 1456
+},
+"http://74.91.26.218:82/live/hnwshd.m3u8": {
+"ok": true,
+"ms": 2999
+},
+"https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4": {
+"ok": false,
+"ms": 27
+},
+"http://107.150.60.122/live/bjwshd.m3u8": {
+"ok": true,
+"ms": 1459
+},
+"http://38.75.136.137:98/gslb/dsdqbv/bjwshd.m3u8?auth=test20251009": {
+"ok": true,
+"ms": 1820
+},
+"http://120.76.248.139/live/bfgd/4200000092.m3u8": {
+"ok": true,
+"ms": 68
+},
+"http://107.150.60.122/live/sdwshd.m3u8": {
+"ok": true,
+"ms": 837
+},
+"http://198.204.228.26/live/sdwshd.m3u8": {
+"ok": true,
+"ms": 896
+},
+"http://219.159.147.195:9901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6006
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sdwshd": {
+"ok": true,
+"ms": 1232
+},
+"http://38.64.72.148:80/hls/modn/list/4007/playlist.m3u8": {
+"ok": false,
+"ms": 312
+},
+"http://219.159.147.195:9901/tsfile/live/1021_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6007
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ahwshd": {
+"ok": true,
+"ms": 2334
+},
+"http://107.150.60.122/live/szwshd.m3u8": {
+"ok": true,
+"ms": 791
+},
+"http://gmxw.7766.org:808/hls/45/index.m3u8": {
+"ok": true,
+"ms": 1083
+},
+"http://107.150.60.122/live/gdwshd.m3u8": {
+"ok": true,
+"ms": 1798
+},
+"http://107.150.60.122/live/tjwshd.m3u8": {
+"ok": true,
+"ms": 874
+},
+"http://38.75.136.137:98/gslb/dsdqpub/tjwshd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 834
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=szwshd": {
+"ok": true,
+"ms": 1208
+},
+"https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 460
+},
+"http://219.159.147.195:9901/tsfile/live/1022_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6011
+},
+"https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 342
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=tjwshd": {
+"ok": true,
+"ms": 1191
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gdwshd": {
+"ok": true,
+"ms": 2318
+},
+"http://223.78.65.165:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6043
+},
+"http://120.76.248.139/live/bfgd/4200000102.m3u8": {
+"ok": true,
+"ms": 67
+},
+"http://107.150.60.122/live/hbwshd.m3u8": {
+"ok": true,
+"ms": 855
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=scwshd": {
+"ok": true,
+"ms": 1203
+},
+"http://219.159.147.195:9901/tsfile/live/1016_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6014
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cqwshd": {
+"ok": true,
+"ms": 1279
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hbwshd": {
+"ok": true,
+"ms": 1249
+},
+"http://107.150.60.122/live/hawshd.m3u8": {
+"ok": true,
+"ms": 780
+},
+"http://120.76.248.139/live/bfgd/4200000108.m3u8": {
+"ok": true,
+"ms": 50
+},
+"http://107.150.60.122/live/cqwshd.m3u8": {
+"ok": true,
+"ms": 1836
+},
+"http://219.159.147.195:9901/tsfile/live/1024_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6013
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hawshd": {
+"ok": true,
+"ms": 1259
+},
+"http://38.75.136.137:98/gslb/dsdqpub/hewshd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 816
+},
+"http://219.159.147.195:9901/tsfile/live/1027_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6003
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hewshd": {
+"ok": true,
+"ms": 1457
+},
+"http://104.152.209.49:8181/720p/ahws.m3u8": {
+"ok": false,
+"ms": 6037
+},
+"https://idclive.hljtv.com:4430/live/hljws_own.m3u8": {
+"ok": true,
+"ms": 233
+},
+"http://219.159.147.195:9901/tsfile/live/1029_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6010
+},
+"http://107.150.60.122/live/lnwshd.m3u8": {
+"ok": true,
+"ms": 797
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=lnwshd": {
+"ok": true,
+"ms": 1213
+},
+"http://107.150.60.122/live/hljwshd.m3u8": {
+"ok": true,
+"ms": 771
+},
+"http://107.150.60.122/live/jlwshd.m3u8": {
+"ok": true,
+"ms": 799
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=hljwshd": {
+"ok": true,
+"ms": 1287
+},
+"http://198.204.228.26/live/lnwshd.m3u8": {
+"ok": true,
+"ms": 1813
+},
+"https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 322
+},
+"http://219.159.147.195:9901/tsfile/live/1037_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6014
+},
+"http://live.zohi.tv/video/s10001-fztv-3/index.m3u8": {
+"ok": true,
+"ms": 301
+},
+"http://107.150.60.122/live/jxwshd.m3u8": {
+"ok": true,
+"ms": 834
+},
+"http://219.159.147.195:9901/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6012
+},
+"http://120.76.248.139/live/bfgd/4200000483.m3u8": {
+"ok": true,
+"ms": 51
+},
+"http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 2174
+},
+"https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 418
+},
+"http://219.159.147.195:9901/tsfile/live/1036_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6014
+},
+"http://iptv.huuc.edu.cn/hls/cqhd.m3u8": {
+"ok": false,
+"ms": 6018
+},
+"http://219.159.147.195:9901/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6011
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jlwshd": {
+"ok": true,
+"ms": 3096
+},
+"http://107.150.60.122/live/dnwshd.m3u8": {
+"ok": true,
+"ms": 843
+},
+"http://120.76.248.139/live/bfgd/4200000482.m3u8": {
+"ok": true,
+"ms": 72
+},
+"http://198.204.228.26/live/hljwshd.m3u8": {
+"ok": false,
+"ms": 3475
+},
+"http://38.75.136.137:98/gslb/dsdqpub/jlwshd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 2807
+},
+"http://107.150.60.122/live/gzwshd.m3u8": {
+"ok": true,
+"ms": 772
+},
+"http://120.76.248.139/live/bfgd/4200000116.m3u8": {
+"ok": true,
+"ms": 70
+},
+"http://219.159.147.195:9901/tsfile/live/1034_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6014
+},
+"http://192.151.150.154/live/ynwshd.m3u8": {
+"ok": true,
+"ms": 774
+},
+"http://107.150.60.122/live/ynwshd.m3u8": {
+"ok": true,
+"ms": 827
+},
+"http://120.76.248.139/live/bfgd/4200000119.m3u8": {
+"ok": true,
+"ms": 48
+},
+"http://219.159.147.195:9901/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6008
+},
+"https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 319
+},
+"http://38.75.136.137:98/gslb/dsdqpub/gswshd.m3u8?auth=testpub": {
+"ok": true,
+"ms": 751
+},
+"http://173.208.212.130:8181/720p/haws.m3u8": {
+"ok": false,
+"ms": 6391
+},
+"https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 368
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gxwshd": {
+"ok": true,
+"ms": 1275
+},
+"https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 359
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gzwshd": {
+"ok": true,
+"ms": 1752
+},
+"http://204.12.221.218:8181/3m1080p/gzws.m3u8": {
+"ok": true,
+"ms": 2004
+},
+"http://120.76.248.139/live/bfgd/4200000111.m3u8": {
+"ok": true,
+"ms": 174
+},
+"http://218.84.12.186:8001/hls/main/playlist.m3u8?zxinjd;http://218.84.12.186:8001/hls/main/playlist.m3u8zxinjd": {
+"ok": true,
+"ms": 129
+},
+"http://219.159.147.195:9901/tsfile/live/1017_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6006
+},
+"http://play1-qk.nmtv.cn/live/1769652018126032.m3u8": {
+"ok": true,
+"ms": 89
+},
+"https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 360
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=jxwshd": {
+"ok": true,
+"ms": 3752
+},
+"http://107.150.60.122/live/nxws.m3u8": {
+"ok": true,
+"ms": 809
+},
+"https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 306
+},
+"http://107.150.60.122/live/gxwshd.m3u8": {
+"ok": true,
+"ms": 1838
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=dnwshd": {
+"ok": true,
+"ms": 3303
+},
+"http://107.150.60.122/live/qhws.m3u8": {
+"ok": true,
+"ms": 823
+},
+"http://120.76.248.139/live/bfgd/4200000473.m3u8": {
+"ok": true,
+"ms": 45
+},
+"https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 293
+},
+"http://[2409:8087:8:21::18]:6610/otttv.bj.chinamobile.com/PLTV/88888888/224/3221227029/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EEuBMjt2kLMD8fAO7QYER7Q%7EtP4-l0lmSfjwLWEfK_el1vH_mv-s1zo4AQJwdedaVwG9xkuFTDg8J26cwOrNJzn20BErrHdLhuZ9EzLUCD3PMW-OMx4MGteHV2vLeW6BqoY%2CEND": {
+"ok": false,
+"ms": 0
+},
+"https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 340
+},
+"https://zby.130519.xyz/PLTV/11/224/3221226154/index.m3u8": {
+"ok": false,
+"ms": 149
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ynwshd": {
+"ok": true,
+"ms": 2593
+},
+"https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 367
+},
+"http://218.13.170.98:9901/tsfile/live/0141_1.m3u8": {
+"ok": true,
+"ms": 2295
+},
+"https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 325
+},
+"http://107.150.60.122/live/xzws.m3u8": {
+"ok": true,
+"ms": 765
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=gswshd": {
+"ok": true,
+"ms": 2311
+},
+"https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk": {
+"ok": false,
+"ms": 410
+},
+"http://107.150.60.122/live/sxwshd.m3u8": {
+"ok": true,
+"ms": 837
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xzws": {
+"ok": true,
+"ms": 1221
+},
+"http://192.151.150.154/live/snwshd.m3u8": {
+"ok": true,
+"ms": 787
+},
+"http://107.150.60.122/live/xjws.m3u8": {
+"ok": true,
+"ms": 1848
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=qhws": {
+"ok": true,
+"ms": 2278
+},
+"http://219.159.147.195:9901/tsfile/live/1028_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6003
+},
+"http://107.150.60.122/live/ssws.m3u8": {
+"ok": true,
+"ms": 777
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=nmgws": {
+"ok": true,
+"ms": 1790
+},
+"https://srs.iyb983.cn:443/video/CYS/index.m3u8": {
+"ok": true,
+"ms": 39
+},
+"https://srs.iyb983.cn/video/CYS/index.m3u8": {
+"ok": true,
+"ms": 21
+},
+"https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8": {
+"ok": true,
+"ms": 2638
+},
+"http://198.204.228.26/live/ssws.m3u8": {
+"ok": true,
+"ms": 847
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=ssws": {
+"ok": true,
+"ms": 1294
+},
+"http://107.150.60.122/live/snwshd.m3u8": {
+"ok": true,
+"ms": 1781
+},
+"http://192.151.150.154/live/xmws.m3u8": {
+"ok": true,
+"ms": 1411
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xmws": {
+"ok": true,
+"ms": 1279
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=snwshd": {
+"ok": true,
+"ms": 2338
+},
+"http://38.75.136.137:98/gslb/dsdqpub/ssws.m3u8?auth=testpub": {
+"ok": true,
+"ms": 1895
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xjws": {
+"ok": true,
+"ms": 3685
+},
+"http://107.150.60.122/live/xmws.m3u8": {
+"ok": true,
+"ms": 1849
+},
+"http://63.141.230.178:82/gslb/zbdq5.m3u8?id=sxwshd": {
+"ok": true,
+"ms": 2975
+},
+"http://198.204.228.26/live/xmws.m3u8": {
+"ok": true,
+"ms": 1889
+},
+"http://219.159.147.195:9901/tsfile/live/1002_1.m3u8?key=txiptv": {
+"ok": false,
+"ms": 6002
+},
+"http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0": {
+"ok": false,
+"ms": 6044
+},
+"http://223.110.245.139/PLTV/4/224/3221227002/index.m3u8": {
+"ok": false,
+"ms": 6006
+},
+"http://223.110.245.161/ott.js.chinamobile.com/PLTV/3/224/3221227002/index.m3u8": {
+"ok": false,
+"ms": 6009
+},
+"http://112.25.48.68/live/program/live/btws/1300000/mnf.m3u8": {
+"ok": false,
+"ms": 6000
+}
+}

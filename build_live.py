@@ -34,10 +34,17 @@ SATELLITE = [
 CCTV_ORDER = ["CCTV%d" % i for i in range(1, 18)] + ["CCTV5+", "CCTV4K"]
 
 
-def fetch(url):
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
-        return r.read().decode("utf-8-sig", "replace")
+def fetch(url, tries=3):
+    last = None
+    for i in range(tries):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=TIMEOUT) as r:
+                return r.read().decode("utf-8-sig", "replace")
+        except Exception as e:
+            last = e
+            time.sleep(2 * (i + 1))
+    raise last
 
 
 def parse_m3u(text):
@@ -105,7 +112,33 @@ def build_pool():
         stats.append({"source": src_name, "ok": True, "parsed": len(items), "kept": got})
         print("[ok]  %-10s 解析 %d 条，新增 %d 个可用源" % (src_name, len(items), got))
 
+    pool = apply_checked(pool)
     return pool, stats
+
+
+def apply_checked(pool):
+    """按本机实测结果排序：能播的在前，确认挂掉的在后。"""
+    path = os.path.join(HERE, "live_checked.json")
+    if not os.path.exists(path):
+        return pool
+    try:
+        chk = json.load(open(path, encoding="utf-8"))
+    except Exception:
+        return pool
+
+    def rank(u):
+        r = chk.get(u)
+        if not r:
+            return 0          # 没测过的排前面（可能是新的）
+        return 1 if r.get("ok") else 3
+
+    def ms(u):
+        r = chk.get(u) or {}
+        return r.get("ms", 9999)
+
+    for k, urls in pool.items():
+        urls.sort(key=lambda u: (rank(u), ms(u)))
+    return pool
 
 
 def main():
