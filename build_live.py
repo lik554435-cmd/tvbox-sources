@@ -11,11 +11,14 @@ import json, os, re, sys, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 UA = "okhttp/3.15"
-MAX_PER_CHANNEL = 8          # 每个频道最多保留几个源
+MAX_PER_CHANNEL = 12          # 每个频道最多保留几个源
 TIMEOUT = 25
 
 # 来源优先级（越靠前越优先保留）
 SOURCES = [
+    ("ccsh",      "https://cdn.jsdelivr.net/gh/CCSH/IPTV@main/live.m3u"),
+    ("4yt1k",     "https://cdn.jsdelivr.net/gh/4yt1k/m3u-autoupdate@master/output/result.m3u"),
+    ("fanmingming","https://cdn.jsdelivr.net/gh/fanmingming/live@main/tv/m3u/itv.m3u"),
     ("yuechan",   "https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u"),
     ("suxuang",   "https://cdn.jsdelivr.net/gh/suxuang/myIPTV@main/back/ipv4_0226.m3u"),
     ("qwerttvv",  "https://cdn.jsdelivr.net/gh/qwerttvv/Beijing-IPTV@master/IPTV-Unicom.m3u"),
