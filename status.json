@@ -1,7 +1,10 @@
 {
-  "checked_at": "2026-10-25T02:41:46Z",
+  "checked_at": "2026-10-25T08:58:09Z",
   "alive": 5,
   "total": 5,
+  "kept_previous": false,
+  "previous_count": 5,
+  "note": "",
   "sources": [
     {
       "name": "baohe",
@@ -9,7 +12,7 @@
       "ok": true,
       "kind": "sites",
       "count": 49,
-      "ms": 2045,
+      "ms": 1948,
       "bytes": 41414
     },
     {
@@ -18,7 +21,7 @@
       "ok": true,
       "kind": "sites",
       "count": 106,
-      "ms": 169,
+      "ms": 1255,
       "bytes": 56059
     },
     {
@@ -27,7 +30,7 @@
       "ok": true,
       "kind": "sites",
       "count": 99,
-      "ms": 1055,
+      "ms": 101,
       "bytes": 34555
     },
     {
@@ -36,7 +39,7 @@
       "ok": true,
       "kind": "sites",
       "count": 24,
-      "ms": 1002,
+      "ms": 80,
       "bytes": 16543
     },
     {
@@ -45,7 +48,7 @@
       "ok": true,
       "kind": "sites",
       "count": 20,
-      "ms": 2627,
+      "ms": 1447,
       "bytes": 11510
     }
   ]
