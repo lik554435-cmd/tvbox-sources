@@ -1,6 +1,5 @@
 {
-  "cctv_channels": 18,
-  "satellite_channels": 36,
+  "checked_at": "2026-10-25T10:31:38Z",
   "cctv": {
     "CCTV1": 4,
     "CCTV2": 4,
@@ -59,5 +58,26 @@
     "延边卫视": 4,
     "兵团卫视": 1
   },
-  "source": "local-cache"
+  "cctv_channels": 18,
+  "satellite_channels": 36,
+  "sources": [
+    {
+      "source": "vbskycn",
+      "ok": true,
+      "parsed": 509,
+      "kept": 30
+    },
+    {
+      "source": "guovin",
+      "ok": true,
+      "parsed": 1619,
+      "kept": 180
+    },
+    {
+      "source": "iptv-org",
+      "ok": true,
+      "parsed": 510,
+      "kept": 2
+    }
+  ]
 }

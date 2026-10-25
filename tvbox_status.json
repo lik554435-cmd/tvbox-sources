@@ -1,8 +1,17 @@
 {
-  "checked_at": "2026-10-25T10:30:24Z",
+  "checked_at": "2026-10-25T10:31:47Z",
   "sites": 297,
   "parses": 34,
-  "live_groups": [],
+  "live_groups": [
+    {
+      "group": "央视",
+      "channels": 18
+    },
+    {
+      "group": "卫视",
+      "channels": 36
+    }
+  ],
   "sources": [
     {
       "name": "baohe",
@@ -38,18 +47,21 @@
   "live_sources": [
     {
       "source": "vbskycn",
-      "ok": false,
-      "reason": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+      "ok": true,
+      "parsed": 509,
+      "kept": 30
     },
     {
       "source": "guovin",
-      "ok": false,
-      "reason": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+      "ok": true,
+      "parsed": 1619,
+      "kept": 180
     },
     {
       "source": "iptv-org",
-      "ok": false,
-      "reason": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+      "ok": true,
+      "parsed": 510,
+      "kept": 2
     }
   ]
 }
