@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-25T11:05:51Z",
+  "checked_at": "2026-10-25T15:23:13Z",
   "cctv": {
     "CCTV1": 1,
     "CCTV2": 12,
@@ -106,7 +106,7 @@
     {
       "source": "vbskycn",
       "ok": true,
-      "parsed": 509,
+      "parsed": 507,
       "kept": 0
     },
     {
