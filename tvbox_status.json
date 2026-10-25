@@ -1,8 +1,17 @@
 {
-  "checked_at": "2026-10-25T10:30:24Z",
+  "checked_at": "2026-10-25T11:05:57Z",
   "sites": 297,
   "parses": 34,
-  "live_groups": [],
+  "live_groups": [
+    {
+      "group": "央视",
+      "channels": 18
+    },
+    {
+      "group": "卫视",
+      "channels": 36
+    }
+  ],
   "sources": [
     {
       "name": "baohe",
@@ -37,19 +46,64 @@
   ],
   "live_sources": [
     {
+      "source": "ccsh",
+      "ok": true,
+      "parsed": 2812,
+      "kept": 648
+    },
+    {
+      "source": "4yt1k",
+      "ok": true,
+      "parsed": 2748,
+      "kept": 0
+    },
+    {
+      "source": "fanmingming",
+      "ok": true,
+      "parsed": 189,
+      "kept": 0
+    },
+    {
+      "source": "yuechan",
+      "ok": true,
+      "parsed": 96,
+      "kept": 0
+    },
+    {
+      "source": "suxuang",
+      "ok": true,
+      "parsed": 689,
+      "kept": 0
+    },
+    {
+      "source": "qwerttvv",
+      "ok": true,
+      "parsed": 134,
+      "kept": 0
+    },
+    {
+      "source": "ngo5",
+      "ok": true,
+      "parsed": 58,
+      "kept": 0
+    },
+    {
       "source": "vbskycn",
-      "ok": false,
-      "reason": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+      "ok": true,
+      "parsed": 509,
+      "kept": 0
     },
     {
       "source": "guovin",
-      "ok": false,
-      "reason": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+      "ok": true,
+      "parsed": 1619,
+      "kept": 0
     },
     {
       "source": "iptv-org",
-      "ok": false,
-      "reason": "<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+      "ok": true,
+      "parsed": 510,
+      "kept": 0
     }
   ]
 }
