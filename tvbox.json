@@ -4353,17 +4353,50 @@
       "group": "✅ 实测可用",
       "channels": [
         {
-          "name": "CCTV3",
+          "name": "延边卫视",
           "urls": [
-            "http://74.91.26.218:82/live/cctv3hd.m3u8",
-            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8",
-            "http://107.150.60.122/live/cctv3hd.m3u8"
+            "https://srs.iyb983.cn/video/CYS/index.m3u8",
+            "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
+            "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
+            "http://gmxw.7766.org:808/hls/15/index.m3u8",
+            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8"
           ]
         },
         {
-          "name": "CCTV4",
+          "name": "河南卫视",
           "urls": [
-            "http://183.11.239.36:808/hls/22/index.m3u8"
+            "http://221.226.51.220:50081/newlive/live/hls/37/live.m3u8"
+          ]
+        },
+        {
+          "name": "湖南卫视",
+          "urls": [
+            "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
+            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8"
+          ]
+        },
+        {
+          "name": "天津卫视",
+          "urls": [
+            "http://221.226.51.220:50081/newlive/live/hls/26/live.m3u8"
+          ]
+        },
+        {
+          "name": "厦门卫视",
+          "urls": [
+            "http://113.57.140.161:10081/newlive/live/hls/28/live.m3u8",
+            "http://183.250.156.180:9999/newlive/live/hls/28/live.m3u8",
+            "http://120.40.39.246:352/newlive/live/hls/28/live.m3u8",
+            "http://183.11.239.36:808/hls/17/index.m3u8"
+          ]
+        },
+        {
+          "name": "西藏卫视",
+          "urls": [
+            "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
+            "http://183.11.239.36:808/hls/64/index.m3u8",
+            "http://107.150.60.122/live/xzws.m3u8",
+            "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xzws"
           ]
         },
         {
@@ -4373,25 +4406,17 @@
           ]
         },
         {
-          "name": "CCTV8",
+          "name": "青海卫视",
           "urls": [
-            "http://61.136.172.236:9901/tsfile/live/0008_1.m3u8"
+            "http://113.15.109.216:59901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0",
+            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8"
           ]
         },
         {
-          "name": "CCTV9",
+          "name": "兵团卫视",
           "urls": [
-            "http://74.91.26.218:82/live/cctv9hd.m3u8",
-            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8"
-          ]
-        },
-        {
-          "name": "CCTV16",
-          "urls": [
-            "http://gmxw.7766.org:808/hls/169/index.m3u8",
-            "https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8",
-            "http://183.11.239.36:808/hls/169/index.m3u8",
-            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8"
+            "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8",
+            "http://183.11.239.36:808/hls/7/index.m3u8"
           ]
         },
         {
@@ -4403,50 +4428,12 @@
           ]
         },
         {
-          "name": "湖南卫视",
+          "name": "CCTV16",
           "urls": [
-            "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
-            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226307/index.m3u8"
-          ]
-        },
-        {
-          "name": "东方卫视",
-          "urls": [
-            "http://107.150.60.122/live/dfwshd.m3u8",
-            "http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009"
-          ]
-        },
-        {
-          "name": "广东卫视",
-          "urls": [
-            "http://107.150.60.122/live/gdwshd.m3u8",
-            "http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub"
-          ]
-        },
-        {
-          "name": "天津卫视",
-          "urls": [
-            "http://221.226.51.220:50081/newlive/live/hls/26/live.m3u8"
-          ]
-        },
-        {
-          "name": "河南卫视",
-          "urls": [
-            "http://221.226.51.220:50081/newlive/live/hls/37/live.m3u8"
-          ]
-        },
-        {
-          "name": "江西卫视",
-          "urls": [
-            "http://107.150.60.122/live/jxwshd.m3u8",
-            "http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub"
-          ]
-        },
-        {
-          "name": "东南卫视",
-          "urls": [
-            "http://107.150.60.122/live/dnwshd.m3u8",
-            "http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub"
+            "http://gmxw.7766.org:808/hls/169/index.m3u8",
+            "https://piccpndali.v.myalicdn.com/audio/cctv16_2.m3u8",
+            "http://183.11.239.36:808/hls/169/index.m3u8",
+            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8"
           ]
         },
         {
@@ -4465,25 +4452,36 @@
           ]
         },
         {
-          "name": "青海卫视",
-          "urls": [
-            "http://113.15.109.216:59901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0",
-            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225628/index.m3u8"
-          ]
-        },
-        {
           "name": "内蒙古卫视",
           "urls": [
             "http://183.11.239.36:808/hls/60/index.m3u8"
           ]
         },
         {
-          "name": "西藏卫视",
+          "name": "CCTV8",
           "urls": [
-            "http://112.27.5.218:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=1&authid=0",
-            "http://183.11.239.36:808/hls/64/index.m3u8",
-            "http://107.150.60.122/live/xzws.m3u8",
-            "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=xzws"
+            "http://61.136.172.236:9901/tsfile/live/0008_1.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV4",
+          "urls": [
+            "http://183.11.239.36:808/hls/22/index.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV9",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv9hd.m3u8",
+            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225734/index.m3u8"
+          ]
+        },
+        {
+          "name": "CCTV3",
+          "urls": [
+            "http://74.91.26.218:82/live/cctv3hd.m3u8",
+            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226021/index.m3u8",
+            "http://107.150.60.122/live/cctv3hd.m3u8"
           ]
         },
         {
@@ -4494,29 +4492,31 @@
           ]
         },
         {
-          "name": "厦门卫视",
+          "name": "东方卫视",
           "urls": [
-            "http://113.57.140.161:10081/newlive/live/hls/28/live.m3u8",
-            "http://183.250.156.180:9999/newlive/live/hls/28/live.m3u8",
-            "http://120.40.39.246:352/newlive/live/hls/28/live.m3u8",
-            "http://183.11.239.36:808/hls/17/index.m3u8"
+            "http://107.150.60.122/live/dfwshd.m3u8",
+            "http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009"
           ]
         },
         {
-          "name": "延边卫视",
+          "name": "广东卫视",
           "urls": [
-            "https://srs.iyb983.cn/video/CYS/index.m3u8",
-            "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
-            "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
-            "http://gmxw.7766.org:808/hls/15/index.m3u8",
-            "http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226516/index.m3u8"
+            "http://107.150.60.122/live/gdwshd.m3u8",
+            "http://38.75.136.137:98/gslb/dsdqpub/gdwshd.m3u8?auth=testpub"
           ]
         },
         {
-          "name": "兵团卫视",
+          "name": "江西卫视",
           "urls": [
-            "http://218.13.170.98:9901/tsfile/live/0115_1.m3u8",
-            "http://183.11.239.36:808/hls/7/index.m3u8"
+            "http://107.150.60.122/live/jxwshd.m3u8",
+            "http://38.75.136.137:98/gslb/dsdqpub/jxwshd.m3u8?auth=testpub"
+          ]
+        },
+        {
+          "name": "东南卫视",
+          "urls": [
+            "http://107.150.60.122/live/dnwshd.m3u8",
+            "http://38.75.136.137:98/gslb/dsdqpub/dnwshd.m3u8?auth=testpub"
           ]
         }
       ]
