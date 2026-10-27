@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-27T11:24:00Z",
-  "alive": 4,
+  "checked_at": "2026-10-27T17:11:36Z",
+  "alive": 5,
   "total": 5,
   "kept_previous": false,
   "previous_count": 4,
@@ -12,7 +12,7 @@
       "ok": true,
       "kind": "sites",
       "count": 49,
-      "ms": 1561,
+      "ms": 1175,
       "bytes": 41414
     },
     {
@@ -21,7 +21,7 @@
       "ok": true,
       "kind": "sites",
       "count": 106,
-      "ms": 245,
+      "ms": 444,
       "bytes": 56059
     },
     {
@@ -30,14 +30,17 @@
       "ok": true,
       "kind": "sites",
       "count": 99,
-      "ms": 512,
+      "ms": 696,
       "bytes": 34555
     },
     {
       "name": "junge",
       "url": "http://home.jundie.top:81/top98.json",
-      "ok": false,
-      "reason": "<urlopen error timed out>"
+      "ok": true,
+      "kind": "sites",
+      "count": 24,
+      "ms": 889,
+      "bytes": 16543
     },
     {
       "name": "jinyu",
@@ -45,7 +48,7 @@
       "ok": true,
       "kind": "sites",
       "count": 20,
-      "ms": 2501,
+      "ms": 1846,
       "bytes": 11510
     }
   ]
