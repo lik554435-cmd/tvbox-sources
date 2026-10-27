@@ -1,9 +1,9 @@
 {
-  "checked_at": "2026-10-27T17:11:36Z",
+  "checked_at": "2026-10-27T21:40:28Z",
   "alive": 5,
   "total": 5,
   "kept_previous": false,
-  "previous_count": 4,
+  "previous_count": 5,
   "note": "",
   "sources": [
     {
@@ -12,7 +12,7 @@
       "ok": true,
       "kind": "sites",
       "count": 49,
-      "ms": 1175,
+      "ms": 1479,
       "bytes": 41414
     },
     {
@@ -21,7 +21,7 @@
       "ok": true,
       "kind": "sites",
       "count": 106,
-      "ms": 444,
+      "ms": 299,
       "bytes": 56059
     },
     {
@@ -30,7 +30,7 @@
       "ok": true,
       "kind": "sites",
       "count": 99,
-      "ms": 696,
+      "ms": 588,
       "bytes": 34555
     },
     {
@@ -39,7 +39,7 @@
       "ok": true,
       "kind": "sites",
       "count": 24,
-      "ms": 889,
+      "ms": 1055,
       "bytes": 16543
     },
     {
@@ -48,7 +48,7 @@
       "ok": true,
       "kind": "sites",
       "count": 20,
-      "ms": 1846,
+      "ms": 2681,
       "bytes": 11510
     }
   ]
