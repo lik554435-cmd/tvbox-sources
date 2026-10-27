@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-26T22:09:45Z",
-  "sites": 297,
-  "parses": 34,
+  "checked_at": "2026-10-27T03:15:34Z",
+  "sites": 274,
+  "parses": 23,
   "live_groups": [],
   "sources": [
     {
@@ -24,9 +24,8 @@
     },
     {
       "name": "junge",
-      "ok": true,
-      "sites": 23,
-      "parses": 11
+      "ok": false,
+      "reason": "<urlopen error timed out>"
     },
     {
       "name": "jinyu",
