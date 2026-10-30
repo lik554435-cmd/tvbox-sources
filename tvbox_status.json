@@ -1,13 +1,13 @@
 {
-  "checked_at": "2026-10-30T03:53:58Z",
-  "sites": 274,
-  "parses": 23,
+  "checked_at": "2026-10-30T11:57:31Z",
+  "sites": 295,
+  "parses": 34,
   "live_groups": [],
   "sources": [
     {
       "name": "baohe",
       "ok": true,
-      "sites": 49,
+      "sites": 47,
       "parses": 10
     },
     {
@@ -24,8 +24,9 @@
     },
     {
       "name": "junge",
-      "ok": false,
-      "reason": "timed out"
+      "ok": true,
+      "sites": 23,
+      "parses": 11
     },
     {
       "name": "jinyu",
