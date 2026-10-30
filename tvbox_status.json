@@ -1,7 +1,7 @@
 {
-  "checked_at": "2026-10-29T22:17:36Z",
-  "sites": 297,
-  "parses": 34,
+  "checked_at": "2026-10-30T03:53:58Z",
+  "sites": 274,
+  "parses": 23,
   "live_groups": [],
   "sources": [
     {
@@ -24,9 +24,8 @@
     },
     {
       "name": "junge",
-      "ok": true,
-      "sites": 23,
-      "parses": 11
+      "ok": false,
+      "reason": "timed out"
     },
     {
       "name": "jinyu",
