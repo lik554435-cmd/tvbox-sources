@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-30T11:57:26Z",
+  "checked_at": "2026-10-30T17:45:33Z",
   "alive": 5,
   "total": 5,
   "kept_previous": false,
@@ -12,7 +12,7 @@
       "ok": true,
       "kind": "sites",
       "count": 47,
-      "ms": 1342,
+      "ms": 1640,
       "bytes": 40706
     },
     {
@@ -21,7 +21,7 @@
       "ok": true,
       "kind": "sites",
       "count": 106,
-      "ms": 131,
+      "ms": 443,
       "bytes": 56059
     },
     {
@@ -30,8 +30,8 @@
       "ok": true,
       "kind": "sites",
       "count": 99,
-      "ms": 707,
-      "bytes": 34555
+      "ms": 517,
+      "bytes": 34563
     },
     {
       "name": "junge",
@@ -39,7 +39,7 @@
       "ok": true,
       "kind": "sites",
       "count": 24,
-      "ms": 932,
+      "ms": 1019,
       "bytes": 16543
     },
     {
@@ -48,7 +48,7 @@
       "ok": true,
       "kind": "sites",
       "count": 20,
-      "ms": 2571,
+      "ms": 2736,
       "bytes": 11510
     }
   ]
